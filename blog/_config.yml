@@ -1,0 +1,32 @@
+title: Linux and Java performance blog
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Technology and software engineering blog focusing on Linux kernel optimizations, 
+  low latency, JVM tuning, compiler optimizations and Java performance in general
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: bitcharmer
+github_username:  bitcharmer
+
+# Build settings
+markdown: kramdown
+
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin: "dark"
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
